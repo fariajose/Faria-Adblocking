@@ -1,31 +1,3 @@
-
-
-# This was added at the request of the developer of Diversion
-
-#aax-eu.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#aax-us-east.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#ad2.netshelter.net # whitelisted for smallnetbuilder.com
-#assets.omidoo.com # whitelisted for smallnetbuilder.com
-#flashtalking.com # whitelisted for smallnetbuilder.com
-#fls-na.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#images-na.ssl-images-amazon.com # whitelisted for smallnetbuilder.com
-#ir-na.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#ir-uk.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#pagead2.googlesyndication.com # whitelisted for smallnetbuilder.com
-#servedby.flashtalking.com # whitelisted for smallnetbuilder.com
-#tgdaily.com # whitelisted for smallnetbuilder.com
-#tgdaily.net # whitelisted for smallnetbuilder.com
-#vma.tgdaily.com # whitelisted for smallnetbuilder.com
-#vma.tgdaily.net # whitelisted for smallnetbuilder.com
-#wms-eu.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#wms-na.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#wms-na.assoc-amazon.com # whitelisted for smallnetbuilder.com
-#ws-eu.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#ws-na.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-#z-na.amazon-adsystem.com # whitelisted for smallnetbuilder.com
-
-# Begin Unbreak whitelist.
-
 pinpoint.us-east-1.amazonaws.com
 aax-us-iad.amazon.com
 mads-eu.amazon.com
