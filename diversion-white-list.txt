@@ -1,37 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@fariajose 
-fariajose
-/
-Adblocking
-Public
-forked from PracticalChip/Adblocking
-0
-014
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Adblocking/RawWhitelist.txt
-@PracticalChip
-PracticalChip Update RawWhitelist.txt
-Latest commit 277d14d on 25 Aug 2020
- History
- 2 contributors
-@PracticalChip@userhhh
-1007 lines (1003 sloc)  19.9 KB
-   
-# Contributed by PracticalChip
-# Project home page https://github.com/PracticalChip/Adblocking
+
 
 # This was added at the request of the developer of Diversion
 
