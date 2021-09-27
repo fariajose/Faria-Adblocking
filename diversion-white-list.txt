@@ -1,46 +1,65 @@
-pinpoint.us-east-1.amazonaws.com
-aax-us-iad.amazon.com
-mads-eu.amazon.com
 0-edge-chat.facebook.com
 0.client-channel.google.com
 1-edge-chat.facebook.com
+1.pool.ntp.org
 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
 1drv.com
+1drv.ms
 1hosts.cf
 2-edge-chat.facebook.com
+2-undefined.facebook.com
 2.android.pool.ntp.org
+2.pool.ntp.org
 3-edge-chat.facebook.com
 4-edge-chat.facebook.com
 4.bp.blogspot.com
+4kplayer.pl # rtp
+4shared.com #(forced-entry)
 5-edge-chat.facebook.com
+5-undefined.facebook.com
 5231.xg4ken.com
 6-edge-chat.facebook.com
+6-undefined.facebook.com
 7eer.net
-9to5google.com
+Nexusrules.officeapps.live.com #(forced-entry)
 a-msedge.net
+a.config.skype.com
+a.disquscdn.com
 a463.w10.akamai.net
 a790.w16.akamai.net
-aan.amazon-adsystem.com
+########################################## AMAZON ###############
+wms-eu.amazon-adsystem.com
+wms-na.amazon-adsystem.com
+wms-na.assoc-amazon.com
+z-na.amazon-adsystem.com ##### doggie problem #####
+aan.amazon.co.uk            # dog issues
+aan.amazon.com
+aax-eu.amazon-adsystem.com #  whitelisted for smallnetbuilder.com
+aax-us-east.amazon-adsystem.com #  whitelisted for smallnetbuilder.com
+aax-us-iad.amazon.com
 aax-us-pdx.amazon-adsystem.com
 aax.amazon-adsystem.com
-about.me
-about.medium.com
+account.samsung.com #(forced-entry)
 accounts.elephantjournal.com
-accounts.google.com
 accuweather.com
 acdn.adnxs.com
 actionnetwork.org
 activation.sls.microsoft.com
+activity.windows.com
 ad.atdmt.com
 ad.doubleclick.net
 addons.prestashop.com
 adf.ly
+ads.opensubtitles.org
+ads2.opensubtitles.org
+adversity.uk.to
 ae01.alicdn.com
 affiliatefuture.com
 airtel.in
 ajax.aspnetcdn.com
 ajax.cloudflare.com
 ajax.googleapis.com
+ak2.okccdn.com
 aka.ms
 akamaihd.net
 akamaitechnologies.com
@@ -48,15 +67,18 @@ akamaized.net
 algolia.com
 alluremedia.com
 alluremedia.com.au
+amazon-adsystem.com
 amazonaws.com
 amd.cdn.turner.com
 analytics.twitter.com
-android.clients.google.com
+android.clients.google.com # Google Play Android updates
 angel.co
 anrdoezrs.net
 answers.microsoft.com
+anycubic.com #(forced-entry)
 aolcdn.com
 apex.techrepublic.com
+api-d.dropbox.com
 api-global.netflix.com
 api.apptentive.com
 api.getpocket.com
@@ -64,24 +86,31 @@ api.ipify.org
 api.medium.com
 api.pluto.tv
 api.sbs.com.au
+api.segment.io # breaks crunching nuts playback?
+api.skype.com
 api.termius.com
-apis.google.com
+apis.google.com #breaks some websites
 apis.mail.yahoo.com
 apmebf.com
 app-api.ted.com
 app-measurement.com
+app.adjust.com
 app.convertkit.com
 app.plex.tv
 appboot.netflix.com
 appengine.google.com
+applab-sdk.amazon.com
 apple.com
 appleid.apple.com
 apps.skype.com
+m.hotmail.com # """"""
 appsbackup-pa.clients6.google.com
 appsbackup-pa.googleapis.com
 appsflyer.com
+appspot-preview.l.google.com
 appsumo.com
 apt.sonarr.tv
+arstechnica.com
 askvg.com
 aspnetcdn.com
 asset.wsj.net
@@ -90,7 +119,8 @@ assets.getpocket.com
 assets.nflxext.com
 assets.ubuntu.com
 assets.zendesk.com
-attestation.xboxlive.com
+asus.com # (forced-entry)
+attestation.xboxlive.com # """""
 au.download.windowsupdate.com
 auditrecording-pa.googleapis.com
 auth.gfx.ms
@@ -98,7 +128,11 @@ avantlink.com
 ax.phobos.apple.com.edgesuite.net
 az764295.vo.msecnd.net
 azurewebsites.net
+b-api.facebook.com
+b.disquscdn.com
 bbc.com
+beeg.com
+best.aliexpress.com
 beta.api.getpocket.com
 betanews.com
 bfast.com
@@ -117,19 +151,23 @@ blog.techrepublic.com
 blogs.techrepublic.com
 boards.greenhouse.io
 books.google.com
+brainpop.com #
 brands.medium.com
 brightcove.com
 brightcove.net
+browser.pipe.aria.microsoft.com
 bt.com
 bufferapp.com
 bwp.techrepublic.com
 c.amazon-adsystem.com
+c.disquscdn.com
 c.microsoft.com
-c.s-microsoft.com
+c.s-microsoft.com # ""
 c0.wp.com
 c1.microsoft.com
 calendar.google.com
 cbs.com
+cbsi.com
 cc-dt.com
 ccleaner.com
 cdn-audio-1.medium.com
@@ -137,6 +175,7 @@ cdn-gl.imrworldwide.com
 cdn-images-1.medium.com
 cdn-images-2.medium.com
 cdn-images.mailchimp.com
+cdn-images.rtp.pt
 cdn-mobile.api.pluto.tv
 cdn-origin01.techrepublic.com
 cdn-static-1.medium.com
@@ -157,6 +196,7 @@ cdn.optimizely.com
 cdn.perfdrive.com
 cdn.rawgit.com
 cdn.samsungcloudsolution.com
+cdn.segment.com # crunchroll sure thing
 cdn.shopifycloud.com
 cdn.sstatic.net
 cdn.syndication.twimg.com
@@ -181,48 +221,49 @@ cdnapisec.kaltura.com
 cdnetworks.com
 cdnjs.cloudflare.com
 cdns.gigya.com
-cert.mgt.xboxlive.com
+cert.mgt.xboxlive.com # """""
 cfvod.kaltura.com
 channel9.msdn.com
 chart.googleapis.com
+chartbeat.com
 chocolatey.org
 choices.truste.com
 chrome.google.com
 chromestatus.com
-ci3.googleusercontent.com
-ci4.googleusercontent.com
-ci5.googleusercontent.com
 cj.com
 cj.dotomi.com
+classroom.google.com #
 clc.stackoverflow.com
+clever.com #
 click.linksynergy.com
 clickserve.cc-dt.com
 clickserve.dartsearch.net
 client-api.itunes.apple.com
-client-s.gateway.messenger.live.com
+client-channel.google.com #
+client-s.gateway.messenger.live.com # Used for Xbox Live Messaging
 client.hip.live.com
 client.reactrjs.com
-clientconfig.passport.net
-clients.l.google.com
-clients1.google.com
-clients2.google.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-clients6.google.com
-clk.tradedoubler.com
-cloudapp.net
+clientconfig.passport.net # This domain is used for sign-ins, creating new accounts, and recovering existing Microsoft accounts
 cloudconfig.googleapis.com
 cloudflare.com
 cms.techrepublic.com
+code.org #
+codeload.github.com # breaks scribe
 codepen.io
 collateral.medium.com
 commission-junction.com
 completion.amazon.co.uk
+completion.amazon.com
 connect.googleforwork.com
+connectivitycheck.android.com
+consent-st.truste.com
 consent.truste.com
+content.prd.user.itv.com
+continuum.dds.microsoft.com
 convertkit.com
+conviva.com
 corp.kaltura.com
+count-server.sharethis.com
 countess.twitch.tv
 cpms.spop10.ams.plex.bz
 cpms35.spop10.ams.plex.bz
@@ -231,18 +272,21 @@ crisp.chat
 crunchbase.com
 cse.google.com
 csi.gstatic.com
+csm-e-itv-eb.play.dar.itv.com
 csp.medium.com
 ct.techrepublic.com
 ct.yimg.com
-ctldl.windowsupdate.com
+ctldl.windowsupdate.com # """""
 cwtv-mrss-akamai.cwtv.com
 cwtv-prod-elb.digitalsmiths.net
+d.ghostery.com
 d2c8v52ll5s99u.cloudfront.net
 d2gatte9o95jao.cloudfront.net
 dashboard.plex.tv
+data.microsoft.com
 dataplicity.com
 dcs-vod.apis.anvato.net
-def-vef.xboxlive.com
+def-vef.xboxlive.com # """""
 definitionupdates.microsoft.com
 delivery.vidible.tv
 desktop.github.com
@@ -253,27 +297,35 @@ developers.google.com
 developers.medium.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
-device.auth.xboxlive.com
+device.auth.xboxlive.com # """""
+dictionary.com #
 digitaltrends.com
 directvapplications.hb.omtrdc.net
 directvnow.com
 display.ugc.bazaarvoice.com
-displaycatalog.mp.microsoft.com
+displaycatalog.mp.microsoft.com#  """
+disqus.com
+disquscdn.com
 dl.delivery.mp.microsoft.com
+dl.delivery.mp.microsoft.com # Windows Store
 dl.dropbox.com
 dl.dropboxusercontent.com
+dl.google.com # Google Chrome (to update on ubuntu)
 dns.msftncsi.com
-docs.google.com
+docs.google.com #
 doctor.ndtv.com
 dominos.co.in
 doubleclick.net
+download.lenovo.com
 download.microsoft.com
 download.sonarr.tv
 downloads.techrepublic.com
 dpbolvw.net
+dpm.demdex.net # FOR NOWTV
+dreambox.com #1-undefined.facebook.com
 drift.com
 driftt.com
-drive.google.com
+drive.google.com #
 dshield.org
 dsms0mj1bbhn4.cloudfront.net
 dw.techrepublic.com
@@ -300,6 +352,7 @@ e7065.e2.akamaiedge.net
 e8.whatsapp.net
 e9.whatsapp.net
 ea.com
+ebay.com
 ec-ns.sascdn.com
 ecn.dev.virtualearth.net
 edata.ndtv.com
@@ -307,7 +360,7 @@ edge-chat.facebook.com
 edge-mqtt.facebook.com
 edge.api.brightcove.com
 edgekey.net
-eds.xboxlive.com
+eds.xboxlive.com # """""
 eff.org
 elasticbeanstalk.com
 electionsdata.ndtv.com
@@ -315,11 +368,35 @@ elephantjournal.com
 email.appsumo.com
 email.uber.com
 emjcd.com
+en-gb.facebook.com
 en.w3schools.com
 encrypted-tbn0.gstatic.com
 enews.techrepublic.com
 entitlement.auth.adobe.com
+epmclk.com
+epn.adledge.com
+epoczta247.com
+epom.com
+epomads2.4shared.com
+eporwanienatalki.pl
+epost.122.2o7.net
+eposzukiwananatalka.pl
+epremki.eu
+eps-analyzer.de
+epsilon.iad-03.braze.com
+epson-printer-ink.beesearch.info
+eqads.com
+eqology.com
+eqs-redserver.appspot.com
+equallyyolked.com
+equibase-company-d.openx.net
+equifaxps.sc.omtrdc.net
+equuleus.iad.appboy.com
+eqworks.com
 es.digitaltrends.com
+etrk.asus.com # blocks asus driver selection
+eu-gmtdmp.gd1.mookie1.com # rtp
+europe.pool.ntp.org
 event.mi.com
 events.gfe.nvidia.com
 everydayhealth.com
@@ -350,6 +427,7 @@ fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 fe3.delivery.mp.microsoft.com
 fe3.update.microsoft.com
 feedburner.google.com
+feedly.com
 feeds.feedburner.com
 filament.io
 files.brightcove.com
@@ -357,24 +435,34 @@ files.overclock.net
 filters.adtidy.org
 financialexpress.com
 flipkart.com
-fls-na.amazon.com
+fls-eu.amazon.co.uk
+fls-eu.amazon.com
+fls-eu.amazon.de
+fls-na.amazon-adsystem.com #  whitelisted for smallnetbuilder.com
+fls-na.amazon.com  ##### doggie problem #####
 fonts.googleapis.com
 fonts.gstatic.com
 forms.convertkit.com
 forums.sonarr.tv
 fossbytes.com
+fota5.adups.cn # android boxes ota #(forced-entry)
 fpdownload.adobe.com
+freepornx.org
 fs.microsoft.com
 ftp.chocolatey.org
 ftp.hp.com
 g.co
-g.live.com
+g.live.com # Backup bitlocker recovery key to Microsoft account
 g.whatsapp.net
 g1.symcb.com
 g2.symcb.com
 gan.doubleclick.net
-geo-prod.do.dsp.mp.microsoft.com
+gapt.hit.gemius.pl
+gdlp01.c-wss.com
+gemius.pl
+geo-prod.do.dsp.mp.microsoft.com #  """
 geo3.ggpht.com
+getepic.com #
 getpocket.com
 gfwsl.geforce.com
 ghacks.net
@@ -394,26 +482,34 @@ go2jump.org
 godaddy.com
 goo.gl
 goodreads.com
+# Google ###########################
+id.google.co.in
+id.google.com
+9to5google.com
+accounts.google.com
 google-analytics.com
 google.com
-googleapis.com
-googleapis.l.google.com
+googleapis.com #
+googleapis.com # [ needed for google maps ]
+googleapis.l.google.com # Gmail
 googlehosted.l.googleusercontent.com
 gopjn.com
 graph.facebook.com
 graph.whatsapp.net
-gravatar.com
+gravatar.com # custom login pictures
 groups.google.com
-gstatic.com
+gstatic.com #
 guce.yahoo.com
 hackaday.com
+hclips.com
 hello.myfonts.net
 help.appsumo.com
 help.medium.com
-help.ui.xboxlive.com
+help.ui.xboxlive.com # """""
 hls.ted.com
 hn.algolia.com
 home.bt.com
+horizonhobby.co.uk #(forced-entry)
 hosts.herndl.org
 hostsfile.mine.nu
 hostsfile.org
@@ -426,18 +522,17 @@ i-technet.sec.s-msft.com
 i.cdn.turner.com
 i.i.cbsi.com
 i.imgur.com
-i.s-microsoft.com
+i.s-microsoft.com # ""
 i.ytimg.com
+i1.ytimg.com
 i0.wp.com
 i1.social.s-msft.com
-i1.ytimg.com
 ichnaea.netflix.com
 icloud.com
 icq.com
-id.google.co.in
-id.google.com
 image.elephantjournal.com
 image.ibb.co
+images-na.ssl-images-amazon.com #  whitelisted for smallnetbuilder.com
 images.dmca.com
 images.pluto.tv
 imagesak.secureserver.net
@@ -458,13 +553,22 @@ in.yahoo.com
 inc.com
 indianexpress.com
 inference.location.live.net
+insights.peel-prod.com # remote
 instantmessaging-pa.googleapis.com
 intercom.io
+ipinfo.info
 ipinfo.io
 ipleak.net
+ir-na.amazon-adsystem.com
+ir-uk.amazon-adsystem.com
 itknowledgeexchange.techtarget.com
 itpapers.techrepublic.com
 itunes.com
+itv-hub.cdn-v3.conductrics.com
+itv.com.edgekey.net
+itv.com.edgesuite.net
+itvpnp.live.ott.irdeto.com
+itvpnpdotcom.content.itv.com
 j.mp
 japan.techrepublic.com
 jdoqocy.com
@@ -476,20 +580,21 @@ js.indexww.com
 js.maxmind.com
 js.stripe.com
 jsdelivr.net
+keezmovies.com
 keystone.mwbsys.com
 khanacademy.org
+kinesis.us-east-1.amazonaws.com
 kinja-debug.firebaseio.com
 kinja.com
 kqzyfj.com
 l-msedge.net
 lastfm-img2.akamaized.net
+lcprd1.samsungcloudsolution.net
 learn.elephantjournal.com
 legal.medium.com
-lh4.googleusercontent.com
-lh6.googleusercontent.com
 li.techrepublic.com
 licensedpackages.chocolatey.org
-licensing.xboxlive.com
+licensing.xboxlive.com # """""
 lifehack.org
 lifehacker.com
 link.theplatform.com
@@ -499,22 +604,27 @@ linode.com
 linuxtracker.org
 live.com
 live.github.com
+live.ott.irdeto.com
+livefyre.com
 liveinternet.ru
 livepassdl.conviva.com
 location.services.mozilla.com
 login.aliexpress.com
-login.live.com
-login.microsoftonline.com
+login.live.com # ""
+login.microsoftonline.com # ""
 login.wikimedia.org
 login.yahoo.com
 lotustalk.com
+ls.hit.gemius.pl
 m.digitaltrends.com
 m.gizmodo.com
 m.hotmail.com
 m.techrepublic.com
 m.weeklyad.target.com
 ma.techrepublic.com
+mads-eu.amazon.com
 mads.amazon-adsystem.com
+magni.itv.com
 mail-attachment.googleusercontent.com
 mail.yahoo.com
 mail01.tinyletterapp.com
@@ -526,6 +636,7 @@ maps.google.com
 maps.googleapis.com
 maxcdn.bootstrapcdn.com
 mboxedge22.tt.omtrdc.net
+mcgraw-hill.com #
 media-ams3-1.cdn.whatsapp.net
 media-amt2-1.cdn.whatsapp.net
 media-arn2-1.cdn.whatsapp.net
@@ -605,6 +716,8 @@ meta.plex.bz
 meta.plex.tv
 meta.wikimedia.org
 metrics.plex.tv
+mhcampus.com #
+mheducation.com #
 mi.com
 microsoft.com
 microsoftonline.com
@@ -616,6 +729,7 @@ mme.whatsapp.net
 mme6.whatsapp.net
 mmg-fna.whatsapp.net
 mmg.whatsapp.net
+mmg.whatsapp.net # whatsapp fotos
 mmi244.whatsapp.net
 mmi269.whatsapp.net
 mmi479.whatsapp.net
@@ -624,13 +738,18 @@ mmi651.whatsapp.net
 mmi701.whatsapp.net
 mmi731.whatsapp.net
 mms.whatsapp.net
+mmv274.whatsapp.net
+mobile.pipe.aria.microsoft.com
 mobilenetworkscoring-pa.googleapis.com
 movies.ndtv.com
+mqtt.c10r.facebook.com
+mremote.org
 msedge.net
 msftncsi.com
 msn.com
 mva.microsoft.com
 my.plexapp.com
+myshopify.com # anicube issues #(forced-entry)
 mystart.com
 namecheap.com
 nationalgeographic.com
@@ -640,6 +759,7 @@ netflix.com
 netpnb.com
 newsletters.nationalgeographic.com
 nexus.ensighten.com
+nexus.officeapps.live.com # ""
 nexusrules.officeapps.live.com
 nine.plugins.plexapp.com
 nls.techrepublic.com
@@ -647,10 +767,11 @@ no-ip.com
 node.plexapp.com
 noteworthy.medium.com
 notifications.google.com
-notify.xboxlive.com
+notify.xboxlive.com # """""
 npmjs.com
 npr-news.streaming.adswizz.com
 ns1.dropbox.com
+ns1.dropbox.com ns2.dropbox.com
 ns2.dropbox.com
 nsatc.net
 o.aolcdn.com
@@ -662,21 +783,42 @@ ocsp.apple.com
 office.com
 office.net
 office365.com
-officeclient.microsoft.com
+officeclient.microsoft.com # ""
 ogs.google.com
 ojrq.net
 olx.in
 om.cbsi.com
 oms.symantec.com
+onedrive.live.com
 onenetworkdirect.net
 onesignal.com
 onlinecourses.nptel.ac.in
 openapi.samsung.com
 openphish.com
+openrcv.baidu.com
+openrtb-eu-west-1.axonix.com
+openrtb-t.axonix.com
+openrtb.adkernel.com
+openscotland.pl
+opensdk.wlanbanlv.com
+opensharecount.com
+opensoftwareupdate.com
+opensoftwareupdater.com
+openstat.net
+opentable.tt.omtrdc.net
+opentag-stats.qubit.com
+openvideoads.com
+openvideoads.org
+openwire.tv
+openwrt.com
+openx-server.thinknearhub.com
+openx.4shared.com
+openx.adfactor.nl
+openx.ajur.info
 ota-downloads.nvidia.com
 outlook.com
 outlook.live.com
-outlook.office365.com
+outlook.office365.com # Microsoft Web Pages (Outlook, Office365, Live
 ovh.net
 ow.ly
 package.chocolatey.org
@@ -685,15 +827,19 @@ partner.microsoft.com
 pastebin.com
 paypal.com
 paytm.com
+peach.ebu.io
+pf.directory.live.com
 pgi.billdesk.com
 phishing.mailscanner.info
+pinpoint.us-east-1.amazonaws.com
 pinterest.com
+pipe-collect.ebu.io
 pixel.nymag.com
 pjatr.com
 pjtra.com
 placehold.it
 placeholdit.imgix.net
-play.google.com
+platform-api.sharethis.com # rtp
 play.googleapis.com
 play.itunes.apple.com
 players.brightcove.com
@@ -707,30 +853,39 @@ pntra.com
 pntrac.com
 pntrack.com
 polyfill.io
+pool.ntp.org
+popcorntime.io
+pornhub.com
+portableapps.com
+portal.fb.com star.c10r.
 pps.whatsapp.net
 preferences.truste.com
 pricelist.skype.com
 privacy-policy.truste.com
 prod.telemetry.ros.rockstargames.com
-products.office.com
+products.office.com # ""
 profit.ndtv.com
 proxy.plex.bz
 proxy.plex.tv
 proxy02.pop.ord.plex.bz
+pt-gmtdmp.mookie1.com # rtp
 publishers.medium.com
 pubsub-edge.twitch.tv
 pubsub.plex.bz
 pubsub.plex.tv
 purch.com
 push.chocolatey.org
+pushbullet.com
 pusher.com
 pusherapp.com
 puu.sh
 q.stripe.com
 qa.sockets.stackexchange.com
 qksrv.net
+quantcast.mgr.consensu.org # blocks Sourceforge downloads
 query.prod.cms.rt.microsoft.com
 ramp.purch.com
+raw.githubusercontent.com
 rawgit.com
 rd.symcd.com
 reddestdream.github.io
@@ -741,12 +896,15 @@ redirect.viglink.com
 redirectingat.com
 redirector.googlevideo.com
 redirector.gvt1.com
+referrer.disqus.com
 res.cloudinary.com
 resources.sbs.com.au
 revinate.com
 rg3.github.io
+router.bittorrent.com
 rover.ebay.com
 rt.com
+rtp-play.onesignal.com
 rukminim1.flixcart.com
 s-msft.com
 s.amazon-adsystem.com
@@ -778,30 +936,39 @@ s3.symcb.com
 s4.symcb.com
 s5.symcb.com
 sa.symcb.com
+sa.symcb.com s{1..5}.symcb.com # """"""
 safaribooksonline.com
 safebrowsing.google.com
 samsung.com
+samsungcloudsolution.net # (forced-entry)
 sbi.co.in
 sbs.com.au
 sbsvodns-vh.akamaihd.net
+scholastic.com #
 scontent-lhr3-1.xx.fbcdn.net
 scontent.fgdl5-1.fna.fbcdn.net
 scontent.xx.fbcdn.net
 seal.verisign.com
 search.itunes.apple.com
+secure-us.imrworldwide.com
 secure.avangate.com
 secure.brightcove.com
 secure.gravatar.com
 secure.meetup.com
 secure.netflix.com
+secure.skypeassets.com
 secure.surveymonkey.com
 secure.techrepublic.com
+seesaw.me #
+self-repair.mozilla.org
 serverfault.com
 service.weather.microsoft.com
 services.addons.mozilla.org
 services.medium.com
 services.sonarr.tv
-settings-win.data.microsoft.com
+settings-win.data.microsoft.com # """""
+settings.data.microsoft.com
+sevenforums.comeddit.com
 shareaholic.com
 shareasale.com
 sharepoint.com
@@ -820,6 +987,7 @@ smokingwheels.github.io
 smtp.mail.yahoo.com
 snapdeal.com
 solaredge.com
+sony.co.uk
 space.com
 spaceflightnow.com
 spclient.wg.spotify.com
@@ -831,24 +999,33 @@ ssl.bblck.me
 ssl.google-analytics.com
 ssl.gstatic.com
 ssl.p.jwpcdn.com
+ssw.live.com
 stackexchange.com
 stackoverflow.com
 staging.plex.tv
+star-mini.c10r.facebook.com
+star.c10r.facebook.com
 static-asm.secure.skypeassets.com
 static.127777.com
 static.appsumo.com
+static.chartbeat.com
 static.hubspot.com
 static.licdn.com
 static.medium.com
 static.wired.com
+static.xx.fbcdn.net # facebook
 static1.squarespace.com
 static2cdn.hubspot.com
+statsfe2.ws.microsoft.com
 status.plex.tv
+statuspage.io
 stitcher.pluto.tv
 storage.googleapis.com
 store-images.s-microsoft.com
 storeedgefd.dsx.mp.microsoft.com
+streaming-live.rtp.pt
 subscribe.wired.com
+supl.google.com
 support.microsoft.com
 surveymonkey.com
 sv.symcd.com
@@ -866,23 +1043,26 @@ techradar.com
 techrepublic.com
 techtarget.com
 tedcdn.com
+telemetry.microsoft.com
+tenforums.com
 text.getpocket.com
 textshot.medium.com
 the.earth.li
 theandroidsoul.com
 theguardian.com
-themoviedb.com
-thetvdb.com
+themoviedb.com # metadata for movies
+thetvdb.com  # metadata for tv series
 theverge.com
 thewindowsclub.com
 threatcrowd.org
+tidaltv.com
 tile-service.weather.microsoft.com
 time.com
 time.samsungcloudsolution.com
 time.windows.com
 tinyurl.com
-title.auth.xboxlive.com
-title.mgt.xboxlive.com
+title.auth.xboxlive.com # """""
+title.mgt.xboxlive.com # """""
 tkqlhce.com
 tlu.dl.delivery.mp.microsoft.com
 tomshardware.com
@@ -893,32 +1073,44 @@ track.adform.net
 track.ucas.com
 track.webgains.com
 tracker.debian.org
+tracker.trackerfix.com
 tradetracker.net
 trak.in
 translate.google.com
 triplebyte.com
 truste.com
 tsfe.trafficshaping.dsp.mp.microsoft.com
+tubegalore.com
 tvdb2.plex.tv
 tvthemes.plexapp.com
 tvthemes.plexapp.com.cdn.cloudflare.net
+tvx.adgrx.com # samsung tv
 twimg.com
 twitter.com
+typingclub.com #
 ui.skype.com
+ui.skype.com pricelist.skype.com #  """"""
+undefined.facebook.com
 unsplash.com
 update.code.visualstudio.com
+upload.facebook.com
 urs.techrepublic.com
 use.fontawesome.com
 use.typekit.net
 v.firebog.net
 v.shopify.com
 v.whatsapp.net
-v10.vortex-win.data.microsoft.com
+v10.events.data.microsoft.com # These domains are used for Xbox Live Achievements
+v10.vortex-win.data.microsoft.com # """""
+v20.events.data.microsoft.com # """"
+web.vortex.data.microsoft.com
 v20.vortex-win.data.microsoft.com
 viber.com
 video-api.wsj.com
 video-stats.l.google.com
+video.xx.fbcdn.net
 videocdn-sbs.akamaized.net
+videolan.org
 videos.vidible.tv
 vidible.tv
 vimeo.com
@@ -934,6 +1126,7 @@ w6.web.whatsapp.com
 w7.web.whatsapp.com
 w8.web.whatsapp.com
 washingtonpost.com
+watson.telemetry.microsoft.com
 wccftech.com
 wdcp.microsoft.com
 wdcpalt.microsoft.com
@@ -943,6 +1136,7 @@ web.whatsapp.com
 webhostingtalk.com
 weeklyad.target.com
 weeklyad.target.com.edgesuite.net
+whatsapp.net
 whitepapers.techrepublic.com
 widget-cdn.rpxnow.com
 wikipedia.org
@@ -952,349 +1146,10 @@ windows.net
 wired.com
 wordpress.com
 wp.com
-ws.audioscrobbler.com
-wsj.com
-x.kinja-static.com
-xbox.ipv6.microsoft.com
-xboxexperiencesprod.experimentation.xboxlive.com
-xboxlive.com
-xflight.xboxlive.com
-xkms.xbolive.com
-xkms.xboxlive.com
-xsts.auth.xboxlive.com
-yahoo.com
-youtu.be
-youtube-dl.org
-youtube-nocookie.com
-youtube-ui.l.google.com
-youtube.com
-yt3.ggpht.com
-z.cdn.turner.com
-zapier.com
-zdnet.com
-zomato.com
-zoom.us
-best.aliexpress.com
-feedly.com
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
-europe.pool.ntp.org
-pool.ntp.org
-1.pool.ntp.org
-2.android.pool.ntp.org
-2.pool.ntp.org
-docs.google.com #
-accounts.google.com #
-apis.google.com #
-classroom.google.com #
-drive.google.com #
-docs.google.com #
-lh3.google.com #
-play.google.com #
-clients0.google.com #
-clients1.google.com #
-clients2.google.com #
-clients3.google.com #
-clients4.google.com #
-clients5.google.com #
-clients6.google.com #
-clients7.google.com #
-clients8.google.com #
-clients9.google.com #
-googleapis.com #
-gstatic.com #
-client-channel.google.com #
-lh3.googleusercontent.com #
-getepic.com #
-brainpop.com #
-clever.com #
-typingclub.com #
-code.org #
-dictionary.com #
-mcgraw-hill.com #
-mhcampus.com #
-mheducation.com #
-scholastic.com #
-seesaw.me #
-dreambox.com #1-undefined.facebook.com
-1drv.ms
-2-undefined.facebook.com
-4kplayer.pl # rtp
-4shared.com #(forced-entry)
-5-undefined.facebook.com
-6-undefined.facebook.com
-a.config.skype.com
-a.disquscdn.com
-aan.amazon.com
-aax-eu.amazon-adsystem.com
-aax-eu.amazon-adsystem.com #  whitelisted for smallnetbuilder.com
-aax-us-east.amazon-adsystem.com
-aax-us-east.amazon-adsystem.com #  whitelisted for smallnetbuilder.com
-activity.windows.com
-ads.opensubtitles.org
-ads2.opensubtitles.org
-adversity.uk.to
-ak2.okccdn.com
-amazon-adsystem.com
-android.clients.google.com # Google Play Android updates
-api-d.dropbox.com
-api.segment.io # breaks crunching nuts playback?
-api.skype.com
-apis.google.com #breaks some websites
-app.adjust.com
-applab-sdk.amazon.com
-apps.skype.com m.hotmail.com # """"""
-appspot-preview.l.google.com
-arstechnica.com
-asus.com # (forced-entry)
-attestation.xboxlive.com # """""
-b-api.facebook.com
-b.disquscdn.com
-beeg.com
-bit.ly
-browser.pipe.aria.microsoft.com
-c.amazon-adsystem.com
-c.disquscdn.com
-c.s-microsoft.com # ""
-c1.microsoft.com
-cbsi.com
-cdn-images.rtp.pt
-cdn.onesignal.com
-cdn.segment.com # crunchroll sure thing
-cert.mgt.xboxlive.com # """""
-chartbeat.com
-client-s.gateway.messenger.live.com #  """"""
-client-s.gateway.messenger.live.com # Used for Xbox Live Messaging
-clientconfig.passport.net
-clientconfig.passport.net # This domain is used for sign-ins, creating new accounts, and recovering existing Microsoft accounts
-clients2.google.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-codeload.github.com # breaks scribe
-completion.amazon.com
-connectivitycheck.android.com
-consent-st.truste.com
-content.prd.user.itv.com
-continuum.dds.microsoft.com
-conviva.com
-count-server.sharethis.com
-csm-e-itv-eb.play.dar.itv.com
-ctldl.windowsupdate.com # """""
-d.ghostery.com
-data.microsoft.com
-def-vef.xboxlive.com # """""
-dev.virtualearth.net
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
-device.auth.xboxlive.com # """""
-displaycatalog.mp.microsoft.com#  """
-disqus.com
-disquscdn.com
-dl.delivery.mp.microsoft.com # Windows Store
-dl.dropboxusercontent.com
-dl.google.com # Google Chrome (to update on ubuntu)
-download.lenovo.com
-e1.whatsapp.net
-e12.whatsapp.net
-e4.whatsapp.net
-e5.whatsapp.net
-e7.whatsapp.net
-e8.whatsapp.net
-ebay.com
-ecn.dev.virtualearth.net
-edge-mqtt.facebook.com
-eds.xboxlive.com # """""
-en-gb.facebook.com
-epmclk.com
-epn.adledge.com
-epoczta247.com
-epom.com
-epomads2.4shared.com
-eporwanienatalki.pl
-epost.122.2o7.net
-eposzukiwananatalka.pl
-epremki.eu
-eps-analyzer.de
-epsilon.iad-03.braze.com
-epson-printer-ink.beesearch.info
-eqads.com
-eqology.com
-eqs-redserver.appspot.com
-equallyyolked.com
-equibase-company-d.openx.net
-equifaxps.sc.omtrdc.net
-equuleus.iad.appboy.com
-eqworks.com
-etrk.asus.com # blocks asus driver selection
-eu-gmtdmp.gd1.mookie1.com # rtp
-fbcdn.net
-fls-eu.amazon.co.uk
-fls-eu.amazon.com
-fls-eu.amazon.de
-fls-na.amazon-adsystem.com
-fls-na.amazon-adsystem.com #  whitelisted for smallnetbuilder.com
-fls-na.amazon.com
-fls-na.amazon.com  ##### doggie problem #####
-fota5.adups.cn # android boxes ota #(forced-entry)
-freepornx.org
-fs.microsoft.com
-g.live.com # Backup bitlocker recovery key to Microsoft account
-g.whatsapp.net
-gapt.hit.gemius.pl
-gdlp01.c-wss.com
-gemius.pl
-geo-prod.do.dsp.mp.microsoft.com #  """
-googleapis.com # [ needed for google maps ]
-googleapis.l.google.com # Gmail
-graph.facebook.com
-gravatar.com # custom login pictures
-hclips.com
-help.ui.xboxlive.com # """""
-i.s-microsoft.com # ""
-images-na.ssl-images-amazon.com #  whitelisted for smallnetbuilder.com
-imasdk.googleapis.com
-insights.peel-prod.com # remote
-ipinfo.info
-ir-na.amazon-adsystem.com
-ir-uk.amazon-adsystem.com
-itv-hub.cdn-v3.conductrics.com
-itv.com.edgekey.net
-itv.com.edgesuite.net
-itvpnp.live.ott.irdeto.com
-itvpnpdotcom.content.itv.com
-keezmovies.com
-kinesis.us-east-1.amazonaws.com
-lcprd1.samsungcloudsolution.net
-lh1.googleusercontent.com # [ needed for google maps ]
-lh3.googleusercontent.com # [ needed for google maps ]
-lh4.googleusercontent.com # [ needed for google maps ]
-licensing.xboxlive.com # """""
-live.ott.irdeto.com
-livefyre.com
-login.live.com # ""
-login.microsoftonline.com # ""
-ls.hit.gemius.pl
-m.hotmail.com
-mads.amazon-adsystem.com
-magni.itv.com
-mediafire.com
-mmg.whatsapp.net # whatsapp fotos
-mmv274.whatsapp.net
-mobile.pipe.aria.microsoft.com
-mqtt.c10r.facebook.com
-mremote.org
-namecheap.com
-nexus.officeapps.live.com # ""
-notify.xboxlive.com # """""
-ns1.dropbox.com ns2.dropbox.com
-o.aolcdn.com
-officeclient.microsoft.com # ""
-onedrive.live.com
-onesignal.com
-openrcv.baidu.com
-openrtb-eu-west-1.axonix.com
-openrtb-t.axonix.com
-openrtb.adkernel.com
-openscotland.pl
-opensdk.wlanbanlv.com
-opensharecount.com
-opensoftwareupdate.com
-opensoftwareupdater.com
-openstat.net
-opentable.tt.omtrdc.net
-opentag-stats.qubit.com
-openvideoads.com
-openvideoads.org
-openwire.tv
-openwrt.com
-openx-server.thinknearhub.com
-openx.4shared.com
-openx.adfactor.nl
-openx.ajur.info
-outlook.office365.com # Microsoft Web Pages (Outlook, Office365, Live
-peach.ebu.io
-pf.directory.live.com
-pipe-collect.ebu.io
-platform-api.sharethis.com # rtp
-pool.ntp.org #ntp servers
-popcorntime.io
-pornhub.com
-portableapps.com
-portal.fb.com star.c10r.
-products.office.com # ""
-pt-gmtdmp.mookie1.com # rtp
-pushbullet.com
-quantcast.mgr.consensu.org # blocks Sourceforge downloads
-raw.githubusercontent.com
-reddit.com
-referrer.disqus.com
-router.bittorrent.com
-rover.ebay.com
-rtp-play.onesignal.com
-s.amazon-adsystem.com
-s.gateway.messenger.live.com
-sa.symcb.com s{1..5}.symcb.com # """"""
-samsungcloudsolution.net # (forced-entry)
-scontent-lhr3-1.xx.fbcdn.net
-scontent.xx.fbcdn.net
-secure-us.imrworldwide.com
-secure.skypeassets.com
-self-repair.mozilla.org
-settings-win.data.microsoft.com # """""
-settings.data.microsoft.com
-sevenforums.comeddit.com
-sony.co.uk
-ssw.live.com
-star-mini.c10r.facebook.com
-star.c10r.facebook.com
-static.chartbeat.com
-static.xx.fbcdn.net # facebook
-statsfe2.ws.microsoft.com
-statuspage.io
-streaming-live.rtp.pt
-supl.google.com
-t.paypal.com
-t0.ssl.ak.dynamic.tiles.virtualearth.net
-t0.ssl.ak.tiles.virtualearth.net
-telemetry.microsoft.com
-tenforums.com
-themoviedb.com # metadata for movies
-thetvdb.com  # metadata for tv series
-tidaltv.com
-title.auth.xboxlive.com # """""
-title.mgt.xboxlive.com # """""
-tracker.trackerfix.com
-tubegalore.com
-ui.skype.com pricelist.skype.com #  """"""
-undefined.facebook.com
-upload.facebook.com
-v10.events.data.microsoft.com # These domains are used for Xbox Live Achievements
-v10.vortex-win.data.microsoft.com # """""
-v20.events.data.microsoft.com # """"
-video.xx.fbcdn.net
-videolan.org
-watson.telemetry.microsoft.com
-web.vortex.data.microsoft.com
-web.whatsapp.com
-whatsapp.net
-wms-eu.amazon-adsystem.com
-wms-na.amazon-adsystem.com
-wms-na.assoc-amazon.com
-wpad.RT-AC86U # (forced-entry)
 ws-eu.amazon-adsystem.com
 ws-na.amazon-adsystem.com
+ws.audioscrobbler.com
+wsj.com
 www.4girlsfingerpaint.org
 www.4kplayer.pl
 www.4ksport.pl
@@ -1315,9 +1170,11 @@ www.5rocks.io
 www.5thavenue.com
 www.6inches.pl
 www.7228.eu
+www.account.samsung.com #(forced-entry)
 www.app.adjust.com
 www.codeload.github.com # breaks scribe
 www.device-metrics-us-2.amazon.co
+www.dpm.demdex.net # FOR NOWTV
 www.epmclk.com
 www.epn.adledge.com
 www.epoczta247.com
@@ -1350,6 +1207,7 @@ www.mads.amazon-adsystem.com
 www.mmg.whatsapp.net # whatsapp fotos
 www.msftncsi.com # """""
 www.msftncsi.com # Windows and router  uses this to verify connectivity to Internet
+www.myshopify.com # anicube issues #(forced-entry)
 www.openrcv.baidu.com
 www.openrtb-eu-west-1.axonix.com
 www.openrtb-t.axonix.com
@@ -1378,31 +1236,49 @@ www.reddit.com
 www.rtp.pt
 www.s.amazon-adsystem.com
 www.tubegalore.com
+www.tvx.adgrx.com # samsung tv
 www.web.whatsapp.com
 www.xboxlive.com # """""
+x.kinja-static.com
 xbox.ipv6.microsoft.com # confirmed by Microsoft as being required by Xbox Live
 xboxexperiencesprod.experimentation.xboxlive.com # """""
+xboxlive.com
 xflight.xboxlive.com # """""
 xhamster.com
+xkms.xbolive.com
 xkms.xboxlive.com # """""
 xsts.auth.xboxlive.com # """""
 xvideos.com
+yahoo.com
+clients0.google.com #
+clients1.google.com #
+clients2.google.com #
+clients3.google.com #
+clients4.google.com #
+clients5.google.com #
+clients6.google.com #
+clients7.google.com #
+clients8.google.com #
+clients9.google.com #
+ci3.googleusercontent.com
+ci4.googleusercontent.com
+ci5.googleusercontent.com
+lh1.googleusercontent.com # [ needed for google maps ]
+lh3.google.com #
+lh3.googleusercontent.com # [ needed for google maps ]
+lh4.googleusercontent.com # [ needed for google maps ]
+lh6.googleusercontent.com
+youtu.be
+youtube-dl.org
+youtube-nocookie.com
+youtube-ui.l.google.com
+youtube.com
+yt3.ggpht.com
 z-m.c10r.facebook.com
-z-na.amazon-adsystem.com
-z-na.amazon-adsystem.com ##### doggie problem #####
-horizonhobby.co.uk #(forced-entry)
-aan.amazon.co.uk # dog issues
-Nexusrules.officeapps.live.com #(forced-entry)
-tvx.adgrx.com # samsung tv
-www.tvx.adgrx.com # samsung tv
-myshopify.com # anicube issues #(forced-entry)
-www.myshopify.com # anicube issues #(forced-entry)
-anycubic.com #(forced-entry)
-www.anycubic.com #(forced-entry)
-dpm.demdex.net # FOR NOWTV
-www.dpm.demdex.net # FOR NOWTV
-account.samsung.com #(forced-entry)
-www.account.samsung.com #(forced-entry)
-
-
-
+z.cdn.turner.com
+zapier.com
+zdnet.com
+clk.tradedoubler.com
+cloudapp.net
+zomato.com
+zoom.us
