@@ -934,7 +934,7 @@ s3.symcb.com
 s4.symcb.com
 s5.symcb.com
 sa.symcb.com
-sa.symcb.com s{1..5}.symcb.com # """"""
+sa.symcb.com # s{1..5}.symcb.com # """"""
 safaribooksonline.com
 safebrowsing.google.com
 samsung.com
